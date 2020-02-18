@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./media-item.component.css']
 })
 export class MediaItemComponent implements OnInit {
+  onDelete() {
+    console.log('deleted');
+  }
   constructor() { }
 
   ngOnInit() {
