@@ -1,0 +1,6 @@
+<section>
+  <app-media-item
+    *ngFor="let mediaItem of mediaItems, let i = index"
+    [mediaItem]="mediaItems[i]"
+    (delete)="onMediaItemDelete($event)"></app-media-item>
+</section>
